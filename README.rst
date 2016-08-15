@@ -1,3 +1,5 @@
+.. image:: https://developer.android.com/images/training/sharing/share-text-screenshot.png
+
 Supported Platform
 ==================
 
