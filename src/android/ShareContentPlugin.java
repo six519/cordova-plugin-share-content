@@ -43,6 +43,7 @@ public class ShareContentPlugin extends CordovaPlugin {
         shareIntent.setAction(Intent.ACTION_SEND);
         shareIntent.putExtra(Intent.EXTRA_TEXT, text_to_share);
         shareIntent.setType("text/plain");
+        shareIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         ShareContentPlugin.thisContext.startActivity(shareIntent);
         callbackContext.success(text_to_share);
     }

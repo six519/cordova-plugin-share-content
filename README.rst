@@ -12,8 +12,8 @@ Usage
 =====
 ::
 
-    //send sms
-    window.shareContentPlugin.sendMessage('<TEXT_TO_SHARE>', function(e){
+    //share text
+    window.shareContentPlugin.share('<TEXT_TO_SHARE>', function(e){
         //success callback
     }, function(e){
         //error callback
