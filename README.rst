@@ -8,6 +8,10 @@ Installation
 
 ``cordova plugin add https://github.com/six519/cordova-plugin-share-content.git``
 
+or via npm
+
+``cordova plugin add cordova-plugin-share-content``
+
 Usage
 =====
 ::

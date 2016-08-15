@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-share-content",
+  "version": "1.0.0",
+  "description": "Cordova Plugin To Share Data To Other Apps",
+  "cordova": {
+    "id": "cordova-plugin-share-content",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/six519/cordova-plugin-share-content.git"
+  },
+  "keywords": [
+    "cordova",
+    "share",
+    "content",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova-plugman",
+      "version": ">=4.2.0"
+    }
+  ],
+  "author": "Ferdinand E. Silva",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/six519/cordova-plugin-share-content/issues"
+  },
+  "homepage": "https://github.com/six519/cordova-plugin-share-content#readme"
+}
