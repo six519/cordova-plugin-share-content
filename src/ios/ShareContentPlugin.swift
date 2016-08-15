@@ -10,7 +10,7 @@ import UIKit
         let text_to_share = command.arguments[0] as? String ?? ""
         let uIActivityVC = UIActivityViewController(activityItems: [text_to_share], applicationActivities: nil)
         
-        self.presentViewController(uIActivityVC, animated: true, completion: nil)
+        viewController.presentViewController(uIActivityVC, animated: true, completion: nil)
 
         pluginResult = CDVPluginResult(
             status: CDVCommandStatus_OK,
