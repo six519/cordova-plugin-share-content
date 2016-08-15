@@ -18,7 +18,7 @@ import UIKit
         )
         self.commandDelegate!.sendPluginResult(
             pluginResult, 
-            callbackId: command!.callbackId
+            callbackId: command.callbackId
         )
 
     }
