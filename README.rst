@@ -1,4 +1,5 @@
-.. image:: https://developer.android.com/images/training/sharing/share-text-screenshot.png .. image:: http://ferdinandsilva.com/static/interface/ios.jpg
+.. image:: https://developer.android.com/images/training/sharing/share-text-screenshot.png 
+.. image:: http://ferdinandsilva.com/static/interface/ios.jpg
 
 Supported Platform
 ==================
